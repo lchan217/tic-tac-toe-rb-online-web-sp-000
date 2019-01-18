@@ -46,7 +46,7 @@ def turn(board)
   answer = gets.strip
   response_index = input_to_index(answer)
   if valid_move?(board,response_index)
-    move(board,response_index,curent_player(board))
+    move(board,response_index,curent_player?(board))
   else 
     puts "This is not valid"
     turn(board)
