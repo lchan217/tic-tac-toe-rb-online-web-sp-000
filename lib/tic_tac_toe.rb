@@ -149,6 +149,5 @@ if won?(board)
   return "Congratulations winner!"
 elsif draw(board)?
   return "Cat's Game!"
-
 end
 end
