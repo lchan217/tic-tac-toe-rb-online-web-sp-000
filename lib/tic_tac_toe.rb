@@ -147,7 +147,7 @@ end
 
 if won?(board)
   return "Congratulations winner!"
-else 
+elsif draw(board)?
   return "Cat's Game!"
 end
 end
