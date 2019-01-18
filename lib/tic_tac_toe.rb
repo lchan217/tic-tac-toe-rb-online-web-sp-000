@@ -146,7 +146,7 @@ until over?(board)
 end
 
 if won?(board)
-  return "Congratulations #{winner(board}!"
+  return "Congratulations winner!"
 else 
   return "This is a draw."
 end
