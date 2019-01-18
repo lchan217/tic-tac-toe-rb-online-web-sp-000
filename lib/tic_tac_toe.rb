@@ -148,6 +148,6 @@ end
 if won?(board)
   return "Congratulations winner!"
 else 
-  return "Cat's Game"
+  return "Cat's Game!"
 end
 end
