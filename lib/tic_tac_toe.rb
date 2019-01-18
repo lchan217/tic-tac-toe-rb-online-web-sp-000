@@ -143,8 +143,7 @@ def play(board)
   input = gets
 end
 
-counter = 0 
-until counter == 9 
+until over?(board)
   turn(board)
   couner +=1 
 end
