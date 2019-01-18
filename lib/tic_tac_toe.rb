@@ -141,7 +141,6 @@ end
 
 def play(board)
   input = gets
-end
 
 until over?(board)
   turn(board)
@@ -151,4 +150,5 @@ if won?(board)
   return "Congratulations winner!"
 else 
   return "This is a draw."
+end
 end
