@@ -141,7 +141,7 @@ end
 
 def play(board)
 until over?(board)
-  input = gets.strip
+  input = gets
   turn(board)
 end
 if won?(board)
