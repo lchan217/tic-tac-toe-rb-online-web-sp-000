@@ -145,7 +145,7 @@ until over?(board)
   input = gets
 end
 if won?(board)
-  puts "Congratulations winner!"
+  puts "Congratulations" + !"
 else
   puts "Cat's Game!"
 end
