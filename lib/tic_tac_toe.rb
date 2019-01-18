@@ -142,3 +142,9 @@ end
 def play(board)
   input = gets
 end
+
+counter = 0 
+until counter == 9 
+  turn(board)
+  couner +=1 
+end
