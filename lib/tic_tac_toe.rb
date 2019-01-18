@@ -145,5 +145,10 @@ end
 
 until over?(board)
   turn(board)
-  couner +=1 
+end
+
+if won?(board)
+  return "Congratulations winner!"
+else 
+  return "This is a draw."
 end
