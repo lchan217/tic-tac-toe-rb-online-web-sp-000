@@ -140,9 +140,9 @@ def winner(board)
 end
 
 def play(board)
-
 until over?(board)
   turn(board)
+  inputs=get
 end
 
 if won?(board)
