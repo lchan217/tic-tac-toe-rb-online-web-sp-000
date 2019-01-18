@@ -142,7 +142,7 @@ end
 def play(board)
 until over?(board)
   turn(board)
-  inputs = get
+  input = gets
 end
 
 if won?(board)
