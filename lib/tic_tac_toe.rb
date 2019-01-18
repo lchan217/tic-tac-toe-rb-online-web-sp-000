@@ -21,7 +21,7 @@ WIN_COMBINATIONS = [
   user_input.to_i-1
 end
 
-def move(board,position,value)
+def move(board,position,value="X")
 board[position] = value
 end
 
