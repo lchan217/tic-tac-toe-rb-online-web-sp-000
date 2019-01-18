@@ -144,10 +144,9 @@ until over?(board)
   turn(board)
   input = gets
 end
-
 if won?(board)
-  return "Congratulations winner!"
+  puts "Congratulations winner!"
 elsif draw(board)?
-  return "Cat's Game!"
+  puts "Cat's Game!"
 end
 end
