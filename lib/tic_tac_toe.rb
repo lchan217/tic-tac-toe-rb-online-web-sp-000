@@ -146,7 +146,7 @@ until over?(board)
 end
 
 if won?(board)
-  return "Congratulations winner!"
+  return "Congratulations #{turn_count}!"
 else 
   return "This is a draw."
 end
