@@ -146,7 +146,7 @@ until over?(board)
 end
 if won?(board)
   puts "Congratulations winner!"
-else draw(board)?
+else
   puts "Cat's Game!"
 end
 end
